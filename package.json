@@ -1,0 +1,42 @@
+{
+    "name": "diablojs",
+    "version": "0.2.1-dev",
+    "description": "The DiabloJS Runtime.",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "exports": {
+        ".": "./lib/index.js",
+        "./vm": "./lib/vm.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Diablo2009/diablojs.git"
+    },
+    "keywords": [
+        "diablojs",
+        "node",
+        "nodejs",
+        "runtime"
+    ],
+    "author": "Talon Wettstein",
+    "license": "BSD-3-Clause",
+    "bugs": {
+        "url": "https://github.com/Diablo2009/diablojs/issues"
+    },
+    "homepage": "https://github.com/Diablo2009/diablojs#readme",
+    "dependencies": {
+        "ajv": "^8.17.1",
+        "readline-sync": "^1.4.10",
+        "sync-fetch": "^0.6.0-2"
+    },
+    "bin": {
+        "djs": "bin/app.js"
+    },
+    "files": [
+        "LICENSE",
+        "lib",
+        "bin",
+        "djs_modules",
+        "README.md"
+    ]
+}
