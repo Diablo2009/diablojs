@@ -14,5 +14,8 @@
     "types": "./index.d.ts",
     "engines": {
         "diablojs": ">=0.3.0-dev"
+    },
+    "dependencies": {
+        "diablojs": "github:Diablo2009/diablojs#stable"
     }
 }
